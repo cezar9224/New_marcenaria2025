@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Dutra Projetados">
+    <meta property="og:description" content="Transformando seus sonhos em projetos únicos e funcionais">
+    <meta property="og:image" content="imagens/Leonardo_Phoenix_A_modern_and_sleek_showroom_interior_featurin_2.jpg"> 
+    <link rel="icon" href="imagens/Dutra planejados.png" type="image/x-icon"> 
+    <meta property="og:type" content="website">
+    <title>Dutra Projetados</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <style>
+
+        a {
+            text-decoration: none;
+            color: rgb(123, 114, 160);
+
+        }
+
+        .navbar {
+            background-color: #2c3e50;
+            padding: 1rem;
+        }
+        
+        .navbar-brand {
+            color: #fff !important;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .nav-link {
+            color: #fff !important;
+            transition: color 0.3s;
+        }
+        
+        .nav-link:hover {
+            color: #3498db !important;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('imagens/banner-dutra.png');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        
+        .section {
+            padding: 5rem 0;
+        }
+        
+        .section:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        .card {
+            transition: transform 0.3s;
+            margin-bottom: 1rem;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 3rem 0;
+        }
+        
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+        
+        .social-icons a:hover {
+            color: #3498db;
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: 200px; 
+            object-fit: cover; 
+        }
+
+        .alert {
+            display: none;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dutra Projetados</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="inicio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8" data-aos="fade-right">
+                    <h1 class="display-4">Dutra Projetados</h1>
+                    <p class="lead">Transformando seus sonhos em projetos únicos e funcionais</p>
+                    <a href="#contato" class="btn btn-primary btn-lg">Entre em Contato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section class="section" id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2>Sobre Nós</h2>
+                    <p>Especialistas em móveis planejados com mais de 43 anos de experiência no mercado. Criamos soluções personalizadas para cada cliente, unindo design, funcionalidade e qualidade.</p>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="imagens/Leonardo_Phoenix_A_modern_and_sleek_showroom_interior_featurin_2.jpg" alt="Sobre nós" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos Section -->
+    <section class="section" id="projetos">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Nossos Projetos</h2>
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-up">
+                    <div class="card">
+                        <img src="imagens/cosinha.jpg" class="card-img-top" alt="Projeto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Cozinha Moderna</h5>
+                            <p class="card-text">Design elegante com funcionalidade excepcional.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card">
+                        <img src="imagens/quarto.jpg" class="card-img-top" alt="Projeto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Quarto Planejado</h5>
+                            <p class="card-text">Soluções inteligentes para aproveitar cada espaço.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <img src="imagens/menuNav.jpg" class="card-img-top" alt="Projeto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Home Office</h5>
+                            <p class="card-text">Ambientes funcionais para seu trabalho.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section class="section" id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto" data-aos="fade-up">
+                    <h2 class="text-center mb-4">Entre em Contato</h2>
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <input type="text" id="nome" class="form-control" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="Assunto" class="form-control" placeholder="Assunto" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea id="mensagem" class="form-control" rows="5" placeholder="Mensagem"></textarea>
+                        </div>
+                        <a id="whatsappLink" class="btn btn-success w-100" target="_blank">Enviar no whatsapp</a>
+                    </form>
+                            <div class="alert alert-success mt-3" role="alert"></div>
+                            <div class="alert alert-danger mt-3" role="alert"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h4>Dutra Projetados</h4>
+                    <p>Transformando espaços em sonhos realizados.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Contato</h4>
+                    <p>Email: carloscesardutra@gmail.com</p>
+                    <p>Telefone: (85) 988663231</p>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/cesar.dutra.3194?locale=pt_BR"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/artemoveis14?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p>&copy; 2025 Dutra Projetados. Todos os direitos reservados.</p>
+                    <p>Desenvolvido por <a href="https://www.linkedin.com/in/anderson-dutra-tec/">Anderson Dutra</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
